@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
   const backgroundImageElement = document.getElementById('background-image');
   const images = [
-      '/images/909+Kings+Hwy_Pilesgrove+NJ_08.jpg',
+      'images/38LowellDr_EveshamNJ_03.jpeg',
       '/images/Delaware_17.jpg',
-      '/images/8WethersfieldDr_MedfordNJ_24.jpg',
+      '/images/23CostillAve_ClaytonNJ_01.jpg',
       '/images/UmassLowellvsStPeters_031723_019.jpg',
       '/images/15MeridianCirNewtownPa21.jpg',
       '/images/201906011A5A9472.jpg',
