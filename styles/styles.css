@@ -253,7 +253,7 @@ footer {
 /* Media queries for responsiveness */
 @media (max-width: 768px) {
   header {
-    padding: 0.5rem;
+    padding: 1rem 0.5rem; /* Increase the padding to add more space */
   }
 
   header .logo img {
@@ -262,7 +262,7 @@ footer {
 
   header h1 {
     font-size: 1.25rem;
-    padding: 0.25rem;
+    padding: 0.5rem 0; /* Increase the padding to add more space */
   }
 
   nav ul {
@@ -295,8 +295,13 @@ footer {
 }
 
 @media (max-width: 480px) {
+  header {
+    padding: 1.5rem 0.5rem; /* Increase the padding to add more space */
+  }
+
   header h1 {
     font-size: 1rem;
+    padding: 0.5rem 0; /* Increase the padding to add more space */
   }
 
   .background-image {
