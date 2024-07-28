@@ -250,6 +250,78 @@ footer {
   font-size: 22px;
 }
 
+/* Styles for the contact me section */
+#about-me {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+#contact-me h1 {
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 100px;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 6px;
+  font-weight: normal;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.contact-me-image {
+  display: flex; /* Enable Flexbox */
+  justify-content: center; /* Center content horizontally */
+  margin-bottom: 2rem; /* Optional: Add some space below the image */
+}
+
+.contact-me-image img {
+  max-width: 60%;
+  height: auto;
+  border: 2px solid #333;
+  }
+
+.contact-me-description {
+  flex: 1 1 70%;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.contact-me-description p {
+  margin-bottom: 1rem;
+  text-align: center; /* Align text to the center */
+  line-height: 1.6;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  color: white;
+  font-size: 22px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh; /* Adjust the height as needed */
+}
+
+.contact-me {
+  background-color: #333;
+  color: #fff;
+  border: 2px solid #e60000;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-me:hover {
+  background-color: #e60000;
+  color: #fff;
+}
+
+
 /* Media queries for responsiveness */
 @media (max-width: 768px) {
   header {
